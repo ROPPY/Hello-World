@@ -60,6 +60,13 @@
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
+	<p style="margin-bottom: 0cm">Entrez ci-dessous la surface.</p>
+<p></p>
+
+<form>
+<input placeholder="Nombre de M2" id="nbhl" autofocus="" type="text">
+<input onclick="javascript:document.getElementById('resultat').innerHTML=document.getElementById('nbhl').value/0.16+' Flags.';" value="Calculer" type="button">
+<p id="resultat"></p>
+</form> 
   </body>
 </html>
