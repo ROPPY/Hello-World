@@ -53,7 +53,13 @@
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.
+      <form>
+      	<H3>
+<input placeholder="Nombre de M2" id="nbhl" autofocus="" type="text"></H3>
+<input onclick="javascript:document.getElementById('resultat').innerHTML=document.getElementById('nbhl').value/0.16+' Flags.';" value="Calculer" type="button">
+<H3><p id="resultat"></p></H3></p>
+      </form> 
       </section>
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
@@ -63,10 +69,6 @@
 	<p style="margin-bottom: 0cm">Entrez ci-dessous la surface.</p>
 <p></p>
 
-<form>
-<input placeholder="Nombre de M2" id="nbhl" autofocus="" type="text">
-<input onclick="javascript:document.getElementById('resultat').innerHTML=document.getElementById('nbhl').value/0.16+' Flags.';" value="Calculer" type="button">
-<p id="resultat"></p>
-</form> 
+
   </body>
 </html>
